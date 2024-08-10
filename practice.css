@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+}
+
+.hassan {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    object-fit: cover;
+
+}
+
+.sufi {
+    object-fit: cover;
+
+   
+}
+
+.sufi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sufi{
+    grid-column: span 1;
+}
+
+.sufi-2{
+    grid-row: span 2;
+}
